@@ -1,0 +1,25 @@
+@layout("layout.html", {title: "欢迎页"}){
+<div class="panel panel-default">
+    <div class="panel-heading"></div>
+    <div style="margin:40px auto;width:400px;">
+        <h1 style="text-align:center;">欢迎来到体育资讯管理系统</h1>
+        <!-- <a href="javascript:wechat();">微信支付</a><br/><br/><br/>
+        <a href="javascript:pay();">支付测试</a>
+        <a href="javascript:getpay();">获取支付相关参数</a>
+        <a href="javascript:checkgz('oY4wi5hRtKUn5slyEAzi0v3AZctE');">获取支付相关参数</a> -->
+        <input id="appId" type="hidden" value="" /><br/>
+        <input id="timeStamp" type="hidden" value="" /><br/>
+        <input id="nonceStr" type="hidden" value="" /><br/>
+        <input id="signature" type="hidden" value="" /><br/>
+        <input id="signType" type="hidden" value="" /><br/>
+        <input id="package" type="hidden" value="" /><br/>
+        <input id="paySign" type="hidden" value="" /><br/>
+        <input id="openid" type="hidden" value="" /><br/>
+    </div>
+</div>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#dpLTE'
+    });
+</script>
+@}
